@@ -30,7 +30,6 @@ function getClassByRate(number) {
 function showMovies(data) {
 	const moviesEl = document.querySelector('.movies')
 
-
 	document.querySelector('.movies').innerHTML = ''
 
 	data.films.forEach((movie) => {
